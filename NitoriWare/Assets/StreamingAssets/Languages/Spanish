@@ -1,0 +1,363 @@
+generic
+	name=Español
+	gamename=NitorInc.
+	incomplete=ADVERTENCIA: Este idioma no está traducido completamente, podrían salir frases en inglés.
+stage
+	control
+		key=USA EL TECLADO
+		mouse=USA EL RATÓN
+	speedup=¡MÁS RÁPIDO!
+	boss=NIVEL DEL JEFE
+	levelup=¡NIVEL AUMENTADO!
+	pause=Pausa
+		resume=Reanudar {0}
+	quit=Salir {0}
+	retry=Reintentar {0}
+	gameover=¡Fin de la partida!
+		score=Puntuación: {0}
+		highscore=Récord: {0}
+		newhighscore=¡Nuevo récord!
+discord
+	scoreformat={0} partidas
+	scoreformatsingular={0} partida
+	boss=Nivel del jefe
+	menu=En el menú
+menu
+	yes=Sí
+	no=No
+	ok=Aceptar
+	back=Atrás
+	backalt=Volver
+	confirm=Confirmar
+	cancel=Cancelar
+	on=Sí
+	off=No
+	play=Jugar
+	gamemode=¡Selecciona un modo de juego!
+		nitori=Modo Historia
+			description=¡Juega al modo historia sin parar! ¿Cuál será tu máxima puntuación?
+		arcade=Modo Arcade
+		microgamepractice=Practicar microjuegos
+			description=¡Mejora tus habilidades en los microjuegos y consigue las puntuaciones más altas para que puedas presumir de ello con tus amigos!
+		locked1=¡Bloqueado! Completa {0} para desbloquearlo.
+		locked2=¡Bloqueado! Consigue una puntuación de {0} o más en {1} para desbloquearlo.
+		highscore=Puntuación máxima: {0}
+		compilationmode
+			description=¡Juega a todos los microjuegos que puedas! Sin jefes.
+		compilation=Compendio Kappa
+			description=Modo Arcade Normal: Juega a todos los microjuegos mezclados.
+		compilationfast=Máxima Kappacidad
+			description=¡¡SUPER MEGA RÁPIDO!!
+		compilationmystery=(Documentación necesaria)
+			description=¡Ups! Hemos perdido los planos. ¡No sabemos ni los comandos ni controles!
+		compilationhard=Pepininfierno
+			description=¡Todos los juegos difíciles! ¡Solo una vida! ¿Cuánto podrás aguantar?
+	main
+		quit=Salir del juego
+			prompt=¿Deseas salir de {0}?
+		settings=Opciones
+		credits=Créditos
+	settings
+		resolution=Resolución de pantalla
+		fullscreen=Pantalla completa
+		language=Idioma
+		graphics=Calidad de los gráficos
+			0=Fluida
+			1=Rápida
+			2=Sencilla
+			3=Buena
+			4=Preciosa
+			5=Fantástica
+		volume=Volumen
+			master=General
+			music=Música
+			sfx=Efectos de sonido
+			voice=Voz
+	microgamecredits
+		art=Arte: {0}
+		code=Código: {0}
+		music=Música: {0}
+	splash
+		introa=La versión demo de este juego es un trabajo derivado de Touhou Project (東方 Project), creado por ZUN.
+		introb=Muchos fans de esta serie han colaborado y contribuido con código, música, arte, y otras tantas habilidades para crear esta colección de microjuegos
+		introc=Si sabes inglés y te gustaría contribuir a completar el juego, por favor visita {0} \n¡También puedes ayudar difundiendo el juego!
+		webglwarning=Si el reproductor web te da problemas, prueba uno de los enlaces de descarga de abajo.
+nitori
+	storyintro=Parece que tenemos más clientes.\nA ver cómo te las apañas con mis juegos de marca.\n¡Más te vale no pestañear!
+	storyfinished=Bien hecho, friki.\nNo te dedicas únicamente a ver el escaparate.\n¡Prueba ahora {0} para un desafío de verdad!
+	compilationfinished=Fíjate, ¡me has impresionado!\nPero espera a que el juego esté terminado.\n¡{0} solo acaba de empezar!
+microgame
+	DatingSim
+		suika
+			fullname=Suika Ibuki
+			firstname=Suika
+			introdialogue=¡¡Eeeh!! No tienes nada que hacer, ¿verdad? Vamos a comer algo.
+			right0
+				option=¡Una carrera hasta el puesto de comida!
+				response=¡Quien pierda, paga!
+			right1
+				option=¡Vamos a comer algo!
+				response=¡Bien!
+			wrong0
+				option=¡Si acabas de comer!
+				response=Buuu. Qué aburrido es comer sola.
+			wrong1
+				option=¡Piérdete, glotona!
+				response=¡Tú sí que tienes lorzas, imbécil!
+			wrong2
+				option=Ve tú sola.
+				response=Bah, qué pelma eres.
+		youmu
+			fullname=Youmu Konpaku
+			firstname=Youmu
+			introdialogue=He cultivado estas flores para ti.
+			right0
+				option=¡Son preciosas!
+				response=Gracias...
+			right1
+				option=Eres un cielo.
+				response=¡Me alegro de que te gusten!
+			wrong0
+				option=¡Aaah! ¡Un fantasma!
+				response=Tienes que estar de coña.
+			wrong1
+				option=¡Odio las flores!
+				response=No te las mereces.
+			wrong2
+				option=Seguro que son falsas.
+				response=Seguro que tienes <i>mucha suerte</i> con las mujeres.
+		yuuka
+			fullname=Yuuka Kazami
+			firstname=Yuuka
+			introdialogue=No estarás saliendo con más chicas, ¿verdad?
+			right0
+				option=¡Claro que no!
+				response=Estupendo. Más te vale.
+			right1
+				option=¡Solo tengo ojos para ti!
+				response=Eso pensaba.
+			wrong0
+				option=Pues...
+				response=¿Qué quieres decir con «pues»?
+			wrong1
+				option=¡Mi corazón pertenece a Reimu!
+				response=Piénsatelo dos veces.
+			wrong2
+				option=Tengo otros planes.
+				response=¿Cómo te atreves?
+		patchy
+			fullname=Patchouli Knowledge
+			firstname=Patchouli
+			introdialogue=Espero que te guste el té que he preparado...
+			right0
+				option=Está delicioso.
+				response=Me alegro.
+			right1
+				option=¡Más, por favor!
+				response=¡Enseguida!
+			wrong0
+				option=Sabe un poco raro...
+				response=Lo siento...
+			wrong1
+				option=—tropieza y salpica té por todas partes—
+				response=<i>¡¡IAAAAAAAAAAHH!!</i>
+			wrong2
+				option=No te he pedido té.
+				response=Había pensado... que te gustaría...
+		fakeconfig=Guardar\nCargar\nAuto\nHistorial\nOpciones
+		command=¡Enamórala!
+		igname=Primera cita
+	ComicBubble
+		0
+			0=¿No nos pasará nada?
+			1=¡Qué va!
+		1
+			0=¡Eh, espera!
+			1=Creo que tienes algo...
+			2=¡AQUÍ!
+		2
+			0=Limpiar es un aburrimiento...
+			1=¿Para qué limpias, si soy la única en venir?
+			2=<i>¡Aaah!</i>
+			3=<i>¡Ay!</i>
+		command=¡Diálogos!
+		igname=Va una de Gensokyo y dice...
+	FreezeFrogs
+		command=¡Congela!
+		igname=Congelarranas
+	Slingshot
+		command=¡Lanza!
+		igname=Lanzave
+	ChenFood
+		command=¡Que no te coman!
+		igname=Pezscape
+	Spider
+		command=¡Alimenta!
+		igname=Alimentarañas
+	Donation
+		command=¡Consigue 3!
+		igname=Cazamonedas
+	Wrench
+		command=¡Atornilla!
+		igname=Desarrollo desternillante
+	Potion
+		command=¡A la cazuela!
+		ingredients=Ingredientes
+		igname=Poción peligrosa
+	GhostFood
+		command=¡Come y mastica!
+		igname=Yuyukomida
+	Spaceship
+		command=¡Despega!
+		igname=Programa espacial youkai
+	CupShuffle
+		command=¡Presta atención!
+		commandb=¡Elige!
+		igname=Sukundite
+	TraceShape
+		command=¡Colorea!
+		igname=Pintori
+	KogasaScare
+		command=¡A espantar!
+		igname=Parasustos
+	RockBand
+		command=¡Actúa!
+		igname=SubGuaufer
+	ChenBike
+		command=¡Honk!
+		igname=¡Honk honk!
+	MasterSparkCode
+		command=¡Conjura!
+		igname=¡Al atakker-o!
+	OkuuFire
+		command=¡Regula!
+		igname=Control refrescante
+	YukariCake
+		command=¡Roba!
+		igname=Robapostres
+	RemiCover
+		command=¡Dale sombra!
+		igname=A la sombra me Remi-to
+	SuikaShake
+		command=¡Quítalas de encima!
+		igname=Mezclado, no agitado
+	TouhouSort
+		command=¡Ordena por {0}!
+		hat=Sombreros
+		wing=Forma de alas
+		ear=Orejas
+		igname=Chicas de todo tipo
+	FlanGrab
+		command=¡Protege!
+		igname=Guardia Flantástica
+	PaperThief
+		command=¡Alcanza la meta!
+		commandb=¡Cuidado!
+		commandc=¡Dispara!
+		commandd=¡Véncela!
+		igname=Kappaseo
+	KaguyaMemory
+		command=¡Observa!
+		commandb=¡Selecciona!
+		igname=Recuerdos preciados
+	SumiWheel
+		command=¡Identifica!
+		igname=Lo he vizto todo...
+	MochiPound
+		command=¡Machaca!
+		igname=Mochicante
+	RuukotoSweep
+		command=¡Barre!
+		igname=La barrendera
+	MaskPuzzle
+		command=¡Monta!
+		igname=Rompe-cabezas
+	YuukaWater
+		command=¡Riega!
+		igname=Riégame
+	KnifeDodge
+		command=¡Evita!
+	NitoriLook
+		command=¡Busca a Nitori!
+		igname=¿Dónde está Nitori?
+	MamiPoser
+		command=¡Busca la diferente!
+		igname=Mami-mpostora
+	DollDance
+		command=¡Imita!
+		igname=Teatro de piruetas
+	CirnoBored
+		command=¡Pórtate bien!
+		commandb=¡Diviértela!
+		commandc=¡Sálvala!
+		igname=Una hada aburrida
+	HecShapes
+		command=¡Coloca!
+		igname=Pareja infernal
+	RockPaperSatori
+		command=¡Gana!
+		igname=Piedra, papel, Satori
+	MarisaJizou
+		command=¡Lanza!
+		igname=De sombrero a sombrero
+	NueAbduct
+		command=¡Abduce!
+		igname=Abducción extraterrestre
+	ReimuDodge
+		command=¡Esquiva!
+		igname=~
+	ClothesChoose
+		command=¡Une!
+		igname=¿Qué me pongo hoy?
+	KyoukoEcho
+		command=¡Refleja!
+		igname=Dicho de otra forma...
+	BugSwat
+		command=¡Aplasta!
+		igname=Aplastabichos
+	ClownTorch
+		command=¡Quema!
+		igname=Antorcha payasística
+	BeachBall
+		command=¡Lanza!
+		igname=Por el aro
+	YuugiBalance
+		command=¡Equilibra!
+		igname=Bebe con proporción
+	DoorKnock
+		command=¡Toca!
+	FoodCut
+		command=¡Corta!
+	MoneyTrap
+		command=¡Tienta!
+	KeineMath
+		command=¡Resuelve!
+		igname=Simple suma-sia
+	DoomGame
+		igname=DOOM: Locura en Eientei
+credits
+	intro=¡{0} ha sido posible gracias a los siguientes fans!
+	kapptain=Director creativo, programador, "Kappitán" del equipo
+	leadart=Director artístico, diseño de personajes, Voz de Nitori
+	code=Código no de los microjuegos
+	UI=Gráficos del menú y los niveles
+	menumusic=Música del título y del menú
+	stagemusic=Música de los niveles
+	microgame
+		management=Gestión de los microjuegos
+		managementalt=Gestión de la colaboración
+		code=Código de los microjuegos
+		art=Arte de los microjuegos
+		music=Música de los microjuegos
+	localization=Localizadores
+		management=Gestión de localización
+	sfx=Efectos de sonido
+	voice=Voz de Nitori
+	site=Diseño de sitio web
+	trailer=Trailer de la demo
+	socialmedia=Redes sociales y publicidad
+	touhou=Este juego hecho por fans está basado en Touhou Project, creado por ZUN.
+	thanks=Agradecimientos especiales
+		discord=El servidor de Discord de Touhou Project
+		playtesters=Todos nuestros testers
+		fans=¡Y a todos los fans que ayudaron a difundirnos!
