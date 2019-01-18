@@ -20,7 +20,7 @@ MonoBehaviour:
   _defaultVictory: 1
   _victoryVoiceDelay: 0
   _failureVoiceDelay: 0
-  _musicClip: {fileID: 0}
+  _musicClip: {fileID: 8300000, guid: 496a92a511435ad49af5a7dcc8927a06, type: 3}
   _milestone: 0
   _credits:
   - 
